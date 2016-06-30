@@ -1,0 +1,24 @@
+{
+  "name": "nameApp",
+  "homepage": "https://github.com/sjshank/TypescriptAngularJSExample",
+  "authors": [
+    "shankariya",
+    "saurabh <sshankariya@gmail.com>"
+  ],
+  "description": "",
+  "main": "app.js",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+	"angular-route": "^1.2.29",
+    "angular-ui-bootstrap": "^1.3.1"
+  }
+}
