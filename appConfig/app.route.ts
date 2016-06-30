@@ -9,14 +9,9 @@ module fullnameApp {
         static configRoutes($routeProvider: ng.route.IRouteProvider){
             $routeProvider
                 .when("/home", {
-                    templateUrl: '../views/home.html',
+                    templateUrl: './views/home.html',
                     controller: 'homeCtrl',
                     controllerAs: 'vm'   
-                })
-                .when("/display", {
-                    templateUrl: '../views/display.html',
-                    controller: 'dispalyCtrl',
-                    controllerAs: 'vm'                       
                 })
                .otherwise({
                     redirectTo: '/home'
